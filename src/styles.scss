@@ -1,0 +1,88 @@
+/* You can add global styles to this file, and also import other style files */
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+.px-table {
+  thead tr {
+    height: 40px !important;
+    th {
+      border-top: 2px solid black !important;
+      border-bottom: 2px solid black;
+    }
+  }
+  .mat-column-id {
+    width: 32px;
+  }
+  .mat-column-productName {
+    width: auto;
+  }
+  .mat-column-price {
+    width: 100px;
+  }
+  .mat-column-quantity {
+    width: 100px;
+  }
+  .mat-column-action {
+    width: 100px;
+  }
+  .mat-column-ItemTotal {
+    width: 100px;
+  }
+  .mat-mdc-header-cell {
+    font-size: 14px;
+    font-weight: 600;
+    color: #000;
+    letter-spacing: 1px;
+    opacity: 0.6;
+  }
+  .mdc-data-table__cell {
+    font-size: 14px;
+    font-weight: 600;
+    color: #000;
+    letter-spacing: 1px;
+    opacity: 0.6;
+  }
+  .mat-column-productName {
+    font-weight: 500;
+    font-size: 16px;
+    opacity: 1;
+  }
+  td.mat-column-id {
+    opacity: 0.5;
+  }
+  td.mat-column-ItemTotal {
+    font-weight: 600;
+    opacity: 1;
+  }
+  .px-qty-acts {
+    display: flex;
+    align-items: center;
+  }
+  .px-qty-acts img {
+    height: 20px;
+    width: 20px;
+    cursor: pointer;
+  }
+  .px-qty-acts p {
+    margin: 0;
+    line-height: 0;
+    padding: 0 10px;
+    font-weight: bold;
+  }
+  .px-lins {
+    display: flex;
+    flex-direction: column;
+  }
+  .px-line {
+    height: 3px;
+    background: green;
+    width: 35px;
+    display: block;
+    margin-bottom: 4px;
+  }
+}
